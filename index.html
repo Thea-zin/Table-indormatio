@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+    <div class="First">
+        <p class="color2">Group</p>
+        <p class="color1">2</p>
+        </div>
+    -->   
+ <div class="container">
+ 
+    <div class="input">
+        
+            <p>Student ID</p>
+            <input type="number" name="" id="id" placeholder="Student ID">
+            <p>Student Name</p>
+            <input type="text" name="" id="name" placeholder="Student Name">
+            <p>Student Department</p>
+            <input type="text" name="" id="dept" placeholder="Student Department">
+            <p>STudent Province</p>
+            <input type="text" name="" id="prov" placeholder="Student province"
+>
+            <br>
+            <div class="btn">
+                <button onclick="insertion()" id="insert" class="btn1"> Add</button>
+                <button onclick="update()" id="update" class="btn3"> Update</button>
+                <button onclick="deletion()" id="delete" class="btn2"> delete</button>
+                <button onclick="search()" id="search" class="btn4"> Search</button>
+                
+            </div>
+        </div>
+    <div class="table">
+          <div class="Title" >
+        <p class="color1">Table</p>
+        <p class="color2">Information</p>
+           </div>
+        <table id="dis" class="styled-table">
+        
+                <tr>
+                    <th>Student Id</th>
+                    <th>Studnet name</th>
+                    <th>Student Department</th>
+                    <th>Province</th>
+                </tr>
+                <tr>
+                    <td>1235</td>
+                    <td>Somphors</td>
+                    <td>SE</td>
+                    <td>Kompong speu</td>
+                </tr>
+                <tr>
+                    <td>1236</td>
+                    <td>SereyLin</td>
+                    <td>SE</td>
+                    <td>Phnom penh</td>
+                </tr>
+                <tr>
+                    <td>1237</td>
+                    <td>Thea-zin</td>
+                    <td>SE</td>
+                    <td>kandal</td>
+                </tr>
+
+        </table>
+
+    </div>
+</div>
+    <script src="index.js">
+    </script>
+</body>
+</html>
